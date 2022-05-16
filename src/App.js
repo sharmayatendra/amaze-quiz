@@ -1,14 +1,16 @@
 import "./App.css";
 import Mockman from "mockman-js";
+import { Route, Routes } from "react-router-dom";
+import { Homepage } from "./pages/Homepage/Homepage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>main page</h1>
+    <Routes>
+      <Route path="/" element={<Homepage />}></Route>
 
       {/* <Mockman colorScheme="dark" /> */}
-    </div>
+    </Routes>
   );
 }
 
-export default App;
+export { App };
