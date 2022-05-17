@@ -7,3 +7,7 @@
 .link {
     color: black;
 }
+
+.header-heading {
+    color: var(--primary-color);
+}
