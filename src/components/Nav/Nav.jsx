@@ -9,9 +9,6 @@ const Nav = () => {
         <Link to="/" className="nav-pill"><p class="header-heading">Amaze-Quiz</p></Link>
       </div>
       <div class="header-right-icons">
-        <Link to="/rules" class="link" >
-          Rules
-        </Link>
         <Link to="/login" class="link">
           Login
         </Link>

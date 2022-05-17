@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Categorycard.css"
 const Categorycard = ({category}) => {
   return (
@@ -18,7 +19,8 @@ const Categorycard = ({category}) => {
       </div>
       <footer class="card-footer">
         <div class="card-footer-btn category-footer-btn">
-          <button class="btn btn-primary-solid playnow-btn">Play Now</button>
+          <Link to="/rules"><button class="btn btn-primary-solid playnow-btn">Play Now</button></Link>
+          
         </div>
       </footer>
     </div>
