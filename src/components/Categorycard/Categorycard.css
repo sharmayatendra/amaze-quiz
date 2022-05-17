@@ -1,0 +1,20 @@
+.category-img {
+    aspect-ratio: 5/3;
+}
+
+.category-footer-btn {
+    width: 100%;
+    margin-right: 6px;
+}
+
+.playnow-btn {
+    width: 100%;
+}
+
+.quiz-heading {
+    margin-left: 1rem;
+}
+
+.quiz-heading > h3 {
+    margin-top: 1rem;
+}
