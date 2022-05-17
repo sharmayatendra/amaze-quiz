@@ -1,6 +1,7 @@
 import React from "react";
 import "./Homepage.css";
 import { Nav } from "../../components/Nav/Nav";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -18,9 +19,9 @@ const Homepage = () => {
         <div className="homepage-heading-container">
           <h1>Do you wanna test your knowledge?</h1>
           <h1>Try out the quizzes</h1>
-          {/* <Link to="/categories">
-              </Link> */}
+          <Link to="/categories">
           <button class="btn btn-primary-solid">Explore Quiz</button>
+              </Link>
         </div>
       </div>
     </>
