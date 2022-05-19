@@ -10,8 +10,8 @@ const Categories = () => {
     useEffect(() => {
         (async () => {
             try {
-                const resp = await axios.get("/api/categories")
-                setCategories(resp.data.categories)
+                const resp = await axios.get("/api/quizzes")
+                setCategories(resp.data.quizes)
             } catch(err) {
                 console.log(err);
             }
